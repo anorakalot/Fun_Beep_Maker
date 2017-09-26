@@ -1,9 +1,7 @@
 import os
-import pygame
-pygame.init()
 cmd_1 = "beep -f 32.70"
 cmd_2 = "beep -f 261.63"
-cmd_3 = "beep -f 4186"
+cmd_3 = "beep -f 4000"
 check = True
 
 while check:
@@ -18,9 +16,4 @@ while check:
 		check = False
 	else:
 		None
-
-#pressed = pygame.key.get_pressed()
-#if pressed[pygame.K_1]:
-#elif pressed[pygame.K_ESCAPE]:
-
 
