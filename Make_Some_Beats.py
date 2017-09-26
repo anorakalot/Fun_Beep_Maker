@@ -5,7 +5,7 @@ cmd_3 = "beep -f 4000"
 check = True
 
 while check:
-	a = raw_input("1 to play notes, 0 to quit")
+	a = raw_input("1,2,3 to play notes, 0 to quit")
 	if a == "1":
 		os.system(cmd_1)
 	elif a == "2":
